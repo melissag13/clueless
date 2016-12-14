@@ -27,5 +27,8 @@ Route::get('/camera', function () {
     return view('camera');
 });
 Route::get('/outfits', function () {
-    return view('outfits');
+    request()->file('top')->store('outfits');
+    request()->file('bottom')->store('outfits');
+    request()->file('dress')->store('outfits');
+    request()->file('accessories')->store('outfits');
 });
