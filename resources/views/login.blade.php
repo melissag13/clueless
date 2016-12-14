@@ -29,28 +29,3 @@
             <br>
             <br>
             <br>
-            
-            
-
-            <div class="">
-                <a href="./login"><button type="button" class="btn btn-default" ><h4>Log In</h4></button></a>
-            
-                <a href="./signup"><button type="button" class="btn btn-default" ><h4>Sign Up</h4></button></a>
-            </div>
-        </center>
-        </div>
-
-        <footer class="footer" style="text-align:center">
-            <div class="container">
-                <p>Melissa Garcia Copyright &copy; 
-                <script language="javascript" type="text/javascript">
-                    var today = new Date()
-                    var year = today.getFullYear()
-                    document.write(year)
-                </script></p>
-          </div>
-        </footer>
-
-        </div>
-    </body>
-</html>
