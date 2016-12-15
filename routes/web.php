@@ -32,3 +32,7 @@ Route::get('/outfits', function () {
     request()->file('dress')->store('outfits');
     request()->file('accessories')->store('outfits');
 });
+
+Auth::routes();
+
+Route::get('/home', 'HomeController@index');

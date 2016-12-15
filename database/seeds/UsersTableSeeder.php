@@ -21,7 +21,7 @@ class UsersTableSeeder extends Seeder
         $user->email = 'visitor@example.com';
         $user->password = bcrypt('vistor');
         $user->save();
-        $user->roles()->attach($role_user);
+        $user->roles()->attach($role_user);  //creates a relation to a third table
 
         $admin = new User();
         $admin->first_name = 'John';
