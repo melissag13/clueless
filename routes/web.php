@@ -28,6 +28,10 @@ Route::get('/camera', function () {
 });
 Route::get('/choice', function () {
     return view('choice');
+
+});
+Route::get('/upload', function () {
+    return view('upload');
 });
 Route::post('/choice', function () {
     request()->file('top')->store('tops');

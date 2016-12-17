@@ -36,13 +36,24 @@
 
 </head>
 <body>
+	<div class="jumbotron" style="background-color:transparent">
+            
+            <center><img src="{{ URL::asset('images/mannequin1.jpg') }}">
+            <h1 style="color:hotpink;">Clueless?</h1>
+            <br>
+            <br>
+            <br>
+    		</center>
+    </div>
+
+
 	<div>
 		<a href="camera"><button type="button" class="btn btn-default btn-lg">
           <span class="glyphicon glyphicon-camera"></span>
         </button></a>
 	</div>
 	<div>
-		<a href="upload"><button type="button" class="btn btn-default btn-sm">
+		<a href="./upload"><button type="button" class="btn btn-default btn-sm">
           <span><h4>Upload Image</h4></span>
         </button></a>
 		
