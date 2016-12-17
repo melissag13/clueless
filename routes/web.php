@@ -26,11 +26,20 @@ Route::get('/signup', function () {
 Route::get('/camera', function () {
     return view('camera');
 });
-Route::get('/outfits', function () {
-    request()->file('top')->store('outfits');
-    request()->file('bottom')->store('outfits');
-    request()->file('dress')->store('outfits');
-    request()->file('accessories')->store('outfits');
+Route::get('/choice', function () {
+    return view('choice');
+});
+Route::post('/choice', function () {
+    request()->file('top')->store('tops');
+});
+Route::post('/choice', function () {
+    request()->file('bottom')->store('bottoms');
+});
+Route::post('/choice', function () {
+    request()->file('dress')->store('dresses');
+});
+Route::post('/choice', function () {
+    request()->file('accessory')->store('accessories');
 });
 
 Auth::routes();

@@ -17,7 +17,7 @@
     <!-- Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Raleway:100,600" rel="stylesheet" type="text/css">
 
-	<title>Make an Outfit</title>
+	<title>Camera or Upload</title>
 
 	<style type="text/css">
 		
@@ -39,7 +39,7 @@
 
 		<input type="file" name="top"></input>
 
-		<button type="submit">Tops</button>
+		<button type="submit">Save Top</button>
 
 
 	
@@ -49,7 +49,7 @@
 
 		<input type="file" name="bottom"></input>
 
-		<button type="submit">Bottoms</button>
+		<button type="submit">Save Bottom</button>
 
 
 	
@@ -59,7 +59,7 @@
 
 		<input type="file" name="dress"></input>
 
-		<button type="submit">Dresses</button>
+		<button type="submit">Save Dress</button>
 
 
 	
@@ -69,7 +69,7 @@
 
 		<input type="file" name="accessories"></input>
 
-		<button type="submit">Access</button>
+		<button type="submit">Save Access</button>
 
 
 	

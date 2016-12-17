@@ -12,7 +12,7 @@ class User extends Authenticatable
         // the relation of User because it maybe assigned to many roles 
         return $this->belongsToMany('App\Role', 'user_role', 'user_id', 'role_id');
     }
-
+        // this method checks if a user has a certain role.  If they have a role, determine if the user can be granted to a certain resource or not.
     public function hasAnyRole($roles)
     {
         if (is_array($roles)) {
