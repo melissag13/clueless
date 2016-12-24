@@ -35,7 +35,7 @@
             <div class="">
                 <a href="./login"><button type="button" class="btn btn-default" ><h4>Log In</h4></button></a>
             
-                <a href="./signup"><button type="button" class="btn btn-default" ><h4>Sign Up</h4></button></a>
+                <a href="./register"><button type="button" class="btn btn-default" ><h4>Register</h4></button></a>
             </div>
         </center>
         </div>

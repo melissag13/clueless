@@ -20,6 +20,9 @@ Route::get('/layout', function () {
 Route::get('/login', function () {
     return view('login');
 });
+Route::get('/register', function () {
+    return view('register');
+});
 Route::get('/signup', function () {
     return view('signup');
 });
@@ -33,7 +36,7 @@ Route::get('/choice', function () {
 Route::get('/upload', function () {
     return view('upload');
 });
-Route::post('/choice', function () {
+Route::post('/choice', function () {   // change and make upload_file
     request()->file('top')->store('tops');
 });
 Route::post('/choice', function () {
