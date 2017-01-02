@@ -26,16 +26,17 @@ Route::get('/register', function () {
 Route::get('/signup', function () {
     return view('signup');
 });
-Route::get('/camera', function () {
-    return view('camera');
-});
 Route::get('/choice', function () {
     return view('choice');
-
+});
+Route::get('/camera', function () {
+    return view('camera');
 });
 Route::get('/upload', function () {
     return view('upload');
 });
+
+
 Route::post('/choice', function () {   // change and make upload_file
     request()->file('top')->store('tops');
 });

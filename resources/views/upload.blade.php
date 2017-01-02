@@ -43,31 +43,31 @@
 
 
 	
-	</form>
-	<form method="POST" action="/outfits" enctype="multipart/form-data">
-		{{ csrf_field() }}
+	<!-- </form>
+	<form method="POST" action="/outfits" enctype="multipart/form-data"> -->
+		<!-- {{ csrf_field() }}
 
-		<input type="file" name="bottom"></input>
+		<input type="file" name="bottom"></input> -->
 
 		<button type="submit">Save Bottom</button>
 
 
 	
-	</form>
-	<form method="POST" action="/outfits" enctype="multipart/form-data">
-		{{ csrf_field() }}
+	<!-- </form>
+	<form method="POST" action="/outfits" enctype="multipart/form-data"> -->
+		<!-- {{ csrf_field() }}
 
 		<input type="file" name="dress"></input>
-
+ -->
 		<button type="submit">Save Dress</button>
 
 
 	
-	</form>
-	<form method="POST" action="/outfits" enctype="multipart/form-data">
-		{{ csrf_field() }}
+	<!-- </form>
+	<form method="POST" action="/outfits" enctype="multipart/form-data"> -->
+		<!-- {{ csrf_field() }}
 
-		<input type="file" name="accessories"></input>
+		<input type="file" name="accessories"></input> -->
 
 		<button type="submit">Save Access</button>
 
